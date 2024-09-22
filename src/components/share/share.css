@@ -1,0 +1,63 @@
+.share{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+.shareWrapper{
+    padding: 15px;
+}
+
+.shareTop{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.shareTop > input{
+    border: none;
+    outline: none;
+    width: 91%;
+    height: 35px;
+}
+
+.shareProfileImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+.shareHR{
+    margin: 20px 0;
+}
+
+.shareBottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.shareOptions{
+    display: flex;
+    gap: 20px;
+}
+
+.shareOption{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.shareBtn{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0099ff;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.shareBtn:hover{
+    background-color: #0088e2;
+}

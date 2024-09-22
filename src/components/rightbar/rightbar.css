@@ -1,0 +1,106 @@
+.rightbar{
+    flex: 3.5;
+}
+
+.rightbarWrapper{
+    padding: 20px 20px 0 0;
+}
+
+.birthdayContainer{
+    display: flex;
+}
+
+.birthdayImg{
+    height: 35px;
+    width: 35px;
+    object-fit: contain;
+}
+
+.rightbarAd{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.rightbarTitle{
+margin-bottom: 7px;
+}
+.rightbarFriendList{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.rightbarFriend{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 0;
+}
+
+.rightbarFriendImg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+.rightbarFriendOnline{
+    display: flex;
+    position: relative;
+}
+
+.rightbarFriendBatch{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(0, 176, 0);
+    border: 2px solid white;
+    position: absolute;
+    right: -3px;
+}
+
+.rightbarUserInfoTitle{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.rightbarUserInfo{
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+.rightbarUserInfoText{
+    margin-bottom: 8px;
+}
+
+.rightbarFollowingImg{
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+
+.rightbarFollowing{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100px;
+    margin-bottom: 10px;
+    transition: transform 0.1s ease-in;
+    cursor: pointer;
+}
+
+.rightbarFollowing:hover{
+     transform: scale(1.1);
+}
+
+.rightbarFollowings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 20px;
+}
